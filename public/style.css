@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.dummytable {
+    background-color: green;
+    opacity: 10.5;
+}
+
+.realtable {
+    background-color: grey;
+    opacity: 10.5;
+}
+
+h4, h3, h1 {
+    font-family: cursive
+}
+
+select {
+    background-color: #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+  }

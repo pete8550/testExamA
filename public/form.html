@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Opret et nyt skib</h1>
+    <hr>
+    <form action="/api/ship_create" method="POST">
+        <input placeholder="Skibsnavn" name="create_skibsnavn"/>
+        <input placeholder="Havnebyen" name="create_havnebyen"/>
+        <input placeholder="Kaldesignal" name="create_kaldesignal"/>
+        <input placeholder="MMSI" name="create_MMSI"/>
+        <input placeholder="BRT" name="create_BRT"/>
+        <input placeholder="Længde i Meter" name="create_længde"/>
+        <input placeholder="Max mennesker om bord" name="create_antalmennesker"/>
+        <input placeholder="Formål" name="create_formål"/>
+        <button>Opret</button>
+    </form>
+</body>
+</html>

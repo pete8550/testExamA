@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <form>
+        <input placeholder="username"/>
+        <input placeholder="password"/>
+        <button>Login</button>
+    </form>
+    <hr>
+
+    <h1>Skibe i databasen(dummy code)</h1>
+    <table class="dummytable">
+        <th>Skibsnavn</th>
+        <th>Havnebyen</th>
+        <th>Kaldesignal</th>
+        <th>MMSI</th>
+        <th>BRT</th>
+        <th>Længde i Meter</th>
+        <th>Max mennesker om bord</th>
+        <th>Formål</th>
+
+        <tr>
+            <td>Skibladner II</td>
+            <td>København</td>
+            <td>OWYE</td>
+            <td>219000446</td>
+            <td>43</td>
+            <td>18.5</td>
+            <td>24</td>
+            <td>Skibet anvendes som øvelsesskib for FDF Københavns Søkreds</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h4>Vælg et skib for at vise yderligere data</h4><select name="ships">
+        <option value="skib 1">Skibladner II</option>
+        <option value="skib 2">Mette Pan</option>
+        <option value="skib 3">OdinSS</option>
+    </select>
+    <br> <br>
+    <table>
+        <th>Hastighed</th>
+        <th>Kurs</th>
+        <th>Koordinator</th>
+        <th>Vindens vinkel</th>
+        <th>Vindstyrke</th>
+        <th>Temperatur</th>
+        <th>Motorrotation</th>
+
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+    
+    <br><br>
+
+    <h4><u>Responsiv tabel for skibe</u></h4>
+    <table id="myTable" class="realtable">
+        <tr>
+            <th>Skibsnavn</th>
+            <th>Havnebyen</th>
+            <th>Kaldesignal</th>
+            <th>MMSI</th>
+            <th>BRT</th>
+            <th>Længde i Meter</th>
+            <th>Max mennesker om bord</th>
+            <th>Formål</th>
+        </tr>
+    </table>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
